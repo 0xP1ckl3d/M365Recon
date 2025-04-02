@@ -21,7 +21,8 @@
 
 ## Example Output
 ```
-[+] MX: example-com-au.mail.protection.outlook.com
+[+] MX: au-smtp-inbound-2.mimecast.com
+[+] MX: au-smtp-inbound-1.mimecast.com 
 
 [*] Querying Microsoft for tenant-linked domains...
 
@@ -54,7 +55,8 @@
 TenantName            : example
 OnMicrosoftDomain     : example.onmicrosoft.com
 TenantMXRecord        : example.mail.protection.outlook.com
-OriginalDomainMX      : example-com-au.mail.protection.outlook.com
+OriginalDomainMX      : au-smtp-inbound-2.mimecast.com
+                        au-smtp-inbound-1.mimecast.com 
 TenantID              : xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 TokenEndpoint         : https://login.windows.net/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/oauth2/token
 FederationBrand       : Example Org
