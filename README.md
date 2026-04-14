@@ -1,3 +1,7 @@
+# Archived
+
+Due to ongoing Microsoft updates in their federation API's, in particular, blocking of tenant domain discovery, this tool is no longer effective or supported. If new methods become available, the too may be rewritten in the future.
+
 # M365Recon
 
 **M365Recon** is a PowerShell-based reconnaissance tool for enumerating Microsoft 365 tenant information using unauthenticated methods. It performs DNS, HTTP, SOAP, and NTLM-based probing to reveal publicly exposed services, configurations, and internal metadata.
